@@ -48,6 +48,6 @@ namespace cloud {
 
         bool verifyUser(const std::string &username, const std::string &password) {
             return userMap.count(username) > 0 && userMap[username] == password;
-        }
+        } 
     };
 }// namespace cloud
